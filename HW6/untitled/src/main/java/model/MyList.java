@@ -25,7 +25,7 @@ public class MyList extends AbstractClass implements ListInterface {
             sum = sum + j;
         }
         double resultAverage = Math.round(sum / array.length);
-        System.out.println("\nСреднее значения = " + resultAverage + ".\n");
+        System.out.println("\nСредние значения = " + resultAverage + ".\n");
         return resultAverage;
     }
 
